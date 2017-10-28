@@ -1,0 +1,124 @@
+//==============================================================================
+// Product Layout Default / Product Gallery Images & Thumbnails
+//==============================================================================
+
+.product-images-wrapper 
+{
+    position: relative;
+    
+    .easyzoom
+    {
+        &.is-loading
+        {
+            &:after
+            {
+                display: none;
+            }
+        }
+    }
+    
+    .product_images
+    {
+        .swiper-slide
+        {
+
+            .easyzoom.el_zoom
+            {
+                img
+                {
+                    cursor: url(../images/cursor-zoom.png), auto;
+                }
+            }
+
+            .swiper-lazy-preloader
+            {
+                animation: none;
+                
+                &:after
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    z-index: 9;
+                    content: ""; 
+                    height: 100%;
+                    width: 100%; 
+                    background: url('../images/morph-shape-gif-preloader.gif') center no-repeat;
+                    background-size: auto 15px;
+                }
+            }
+            .images 
+            {
+                float: none !important;
+                width: auto !important;
+                margin: 0 !important;
+                
+                img
+                {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                    box-shadow: none;
+                    transition: none;
+                }
+
+            }
+
+            img
+            {
+                width: 100%;
+            }
+
+        }
+    } 
+}
+
+
+.product_summary_thumbnails_wrapper
+{
+    
+    .product_thumbnails
+    {
+        width: 100%;
+        transition: opacity 300ms ease;
+        overflow: hidden;
+        max-height: 488px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        .carousel-cell
+        {
+            transition: all 0.5s ease;
+            padding: 0 0 20px 0;
+            opacity: 1;
+            
+            &.youtube
+            {
+                font-size: 55px;
+                text-align: center; 
+                cursor: pointer;
+                position: absolute;
+                z-index: 99; 
+                top: 100%;
+                left: 0;
+                right: 0;  
+            }
+            
+            img
+            {
+                width: 100%;
+                height: auto;
+                cursor: pointer;
+            }
+
+            &:hover,
+            &.is-nav-selected
+            {
+                opacity: .2;
+            }            
+        }
+    }
+}

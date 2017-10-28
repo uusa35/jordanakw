@@ -1,0 +1,16 @@
+jQuery(document).ready(function($) {
+
+	"use strict";
+
+	$(window).on('beforeunload', function (e) {
+	    $('#st-container').addClass('fade_out').removeClass('fade_in');
+	    $('#header-loader-under-bar').removeClass('hidden');
+	})
+
+	$(window).load(function(e) {
+	    $('#st-container').addClass('fade_in').removeClass('fade_out');
+	    $('#header-loader-under-bar').addClass('hidden');
+	    NProgress.done();
+	})
+
+});

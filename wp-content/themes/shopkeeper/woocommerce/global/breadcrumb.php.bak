@@ -1,0 +1,70 @@
+<?php
+ // In your theme, make a new folder woocommerce/global/
+ // Add this function in a file called breadcrumbs.php, in that folder
+ // or integrate the existing function accordingly.
+ 
+/**
+ * Shop breadcrumb
+ *
+ * @author 		WooThemes
+ * @package 	WooCommerce/Templates
+ * @version     2.3.0
+ * @see         woocommerce_breadcrumb()
+ */
+
+if (!defined('ABSPATH')) {
+	exit;
+}
+
+ if (is_product() ) {  // if is product page add class for the last item
+
+	if ($breadcrumb) {
+		// Point to end of the array
+		end($breadcrumb);
+		
+		// Fetch key of the last element of the array
+		$lastElementKey = key($breadcrumb);
+		
+		echo $wrap_before;
+		foreach ($breadcrumb as $key => $crumb) { 
+			
+			// If this is the last element (Product Name) stop iteration
+			if($key == $lastElementKey)  break; 
+			
+			echo $before;
+			if (!empty($crumb[1]) && sizeof($breadcrumb) !== $key + 1 ) {
+				echo '<a href="'.esc_url($crumb[1]).'">'.esc_html($crumb[0]).'</a>' ;
+			} else {
+				echo '<a class="breadcrumb-last-item" href="'.esc_html($crumb[1]).'">'.esc_html($crumb[0]).'</a>'; // add clas for the last breadcrum item
+			}
+			echo $after;
+
+
+	        	// If this is the second last element, then don't print delimiter
+			if ($key !== $lastElementKey -1 ) {
+				echo $delimiter;
+			}
+	    
+		}
+		echo $wrap_after;
+		 	
+	}
+	
+} elseif (  ! empty( $breadcrumb )  ) {
+
+	echo $wrap_before;
+	foreach ( $breadcrumb as $key => $crumb ) {
+		echo $before;
+		if ( ! empty( $crumb[1] ) && sizeof( $breadcrumb ) !== $key + 1 ) {
+			echo '<a href="' . esc_url( $crumb[1] ) . '">' . esc_html( $crumb[0] ) . '</a>';
+		} else {
+			echo '<a class="shop-all-products">' . esc_html( $crumb[0] ) . '</a>';
+		}
+		echo $after;
+		if ( sizeof( $breadcrumb ) !== $key + 1 ) {
+			echo $delimiter;
+		}
+	}
+	echo $wrap_after;
+
+}

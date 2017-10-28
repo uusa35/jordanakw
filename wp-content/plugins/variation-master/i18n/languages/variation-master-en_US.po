@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Variation Master 1.0.1\n"
+"POT-Creation-Date: 2016-09-01 19:32+0530\n"
+"PO-Revision-Date: 2016-09-01 19:32+0530\n"
+"Last-Translator: \n"
+"Language-Team: makewebbetter <webmaster@makewebbetter.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: variation-master.php:107
+#, php-format
+msgid ""
+"Variation master requires WooCommerce to be installed and active. You can "
+"download %s here."
+msgstr ""
+
+#: variation-master.php:183 variation-master.php:191
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: variation-master.php:532
+msgid ""
+"There is no enough stock for this product! please reduce your stock for the "
+"variation and try again!"
+msgstr ""
+
+#: variation-master.php:575
+msgid ""
+"unexpected error occured while updating your choice! please try again later "
+"by reducing your product stock."
+msgstr ""
+
+#: variation-master.php:578
+msgid ""
+"unexpected error occured while updating your choice! please try again later."
+msgstr ""
+
+#: variation-master.php:657
+msgid " Error while updating varaiation gallery, please try again later."
+msgstr ""
+
+#: variation-master.php:696
+msgid " Taxonomy or Term Field Is Empty Or Invalid For"
+msgstr ""
+
+#: variation-master.php:707 variation-master.php:728 variation-master.php:750
+msgid " Not Updated"
+msgstr ""
+
+#: variation-master.php:738 variation-master.php:760
+msgid " Updated Successfully"
+msgstr ""
+
+#: variation-master.php:764
+msgid " Not Existed"
+msgstr ""
+
+#: variation-master.php:767
+msgid "Importing Error"
+msgstr ""
+
+#: variation-master.php:831
+msgid " Please provide valid image url"
+msgstr ""
+
+#: variation-master.php:838
+msgid " Gallery Updated Successfully."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:29
+msgid "Not available for this combination, please choose different selection!"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:37
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:61
+#: woocommerce/single-product/add-to-cart/variable.php:96
+#: woocommerce/single-product/add-to-cart/variable.php:161
+#: woocommerce/single-product/add-to-cart/variable.php:197
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:211
+msgid "Choose an option"
+msgstr ""
+
+#: includes/front-end/template/cart/class-ced-vm-cart-manager.php:105
+msgid "update"
+msgstr ""
+
+#: includes/admin/class-ced-vm-variation-gallery.php:74
+msgid "Variation Gallery Images"
+msgstr ""
+
+#: includes/admin/class-ced-vm-variation-gallery.php:84
+msgid "Add Variation Gallery Images"
+msgstr ""
+
+#: includes/admin/class-ced-vm-variation-gallery.php:116
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:200
+#: includes/admin/class-admin_manager.php:305
+msgid "Display type"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:203
+#: includes/admin/class-admin_manager.php:307
+msgid "None"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:204
+#: includes/admin/class-admin_manager.php:293
+#: includes/admin/class-admin_manager.php:308
+#: includes/admin/templates/product-custom-tab-fields.php:108
+#: includes/admin/templates/product-custom-tab-fields.php:143
+msgid "Image"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:205
+#: includes/admin/class-admin_manager.php:309
+#: includes/admin/templates/product-custom-tab-fields.php:109
+#: includes/admin/templates/product-custom-tab-fields.php:144
+msgid "Color"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:210
+msgid "Select Color"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:216
+#: includes/admin/templates/product-custom-tab-fields.php:114
+#: includes/admin/templates/product-custom-tab-fields.php:149
+msgid "Select/Upload Image"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:219
+#: includes/admin/class-admin_manager.php:313
+#: includes/admin/templates/product-custom-tab-fields.php:115
+#: includes/admin/templates/product-custom-tab-fields.php:150
+msgid "Select Image"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:220
+#: includes/admin/class-admin_manager.php:314
+#: includes/admin/templates/product-custom-tab-fields.php:117
+#: includes/admin/templates/product-custom-tab-fields.php:152
+msgid "Browse"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:354
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/admin/class-admin_manager.php:400
+msgid "Variation Swatches"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:54
+msgid "Variation Master"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:55
+msgid "Import/Export"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:67
+msgid "Global Settings"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:78
+msgid "Enable Swatches"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:86
+msgid "Turn this to \"Off\" if you don't like to use variation swatches."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:90
+msgid "Enable Variation Wise Gallery"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:98
+msgid "Turn this to \"Off\" if you don't like to use variation wise gallery."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:102
+msgid "Enable Variation Update On Cart"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:110
+msgid ""
+"Turn this to \"Off\" if you don't like to allow buyers to update product on "
+"cart."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:114
+msgid "Use Attributes Terms Thumbnails"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:122
+msgid ""
+"Turn this to \"Off\" if you don't like to use attributes terms thumbnails."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:126
+msgid "Show Attribute Term Label"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:134
+msgid "Turn this to \"Off\" if you want to hide attribute term label."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:138
+msgid "Attributes Terms Thumbnails Display Type"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:141
+#: includes/admin/templates/product-custom-tab-fields.php:56
+msgid "20px * 20px"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:142
+#: includes/admin/templates/product-custom-tab-fields.php:57
+msgid "40px * 40px"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:143
+#: includes/admin/templates/product-custom-tab-fields.php:58
+msgid "60px * 60px"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:146
+msgid "SQUARE"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:147
+msgid "CIRCLE"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:151
+msgid "Set the \"size\" and \"display type\" of attribute terms thumbnails."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:155
+msgid ""
+"Please go to the attribute settings for setting up global term thumbnails."
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:155
+msgid "Click Here"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:165
+msgid "Attributes Term"
+msgstr ""
+
+#: includes/admin/templates/ced-vm-settings-page.php:169
+msgid "Variations Gallery"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:23
+msgid "Disable Swatches"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:36
+msgid "Label"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:41
+#: includes/admin/templates/product-custom-tab-fields.php:105
+#: includes/admin/templates/product-custom-tab-fields.php:137
+msgid "Display Type"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:45
+msgid "Default(Select)"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:46
+msgid "Image/Color"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:51
+msgid "Display Size"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:61
+msgid "square"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:62
+msgid "circle"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:67
+msgid "Display Name"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:71
+#: includes/admin/templates/product-custom-tab-fields.php:100
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:72
+msgid "No"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:96
+msgid "Enable This"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:99
+msgid "Later"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:121
+#: includes/admin/templates/product-custom-tab-fields.php:156
+msgid "Choose Color"
+msgstr ""
+
+#: includes/admin/templates/product-custom-tab-fields.php:173
+msgid "No available variation for swath images"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:40
+#: includes/admin/settings/ced-vm-attrImport.php:40
+msgid "Please Select A .CSV File For Importing"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:43
+msgid "Error In Uploaded File, Please Try Again Later."
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:47
+#: includes/admin/settings/ced-vm-attrImport.php:45
+msgid "Please Select A CSV File For Importing"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:60
+msgid "Export Variations"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:61
+msgid "Export the available variations gallery images csv file from here!"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:62
+msgid ""
+"Edit the csv file, by entering the valid image urls seperated by | symbol, "
+"and import the edited file."
+msgstr ""
+
+#: includes/admin/settings/ced-vm-galleryImport.php:67
+msgid "Import Variation Gallery Images"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:58
+msgid "Export Attributes"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:60
+msgid "Export the available attributes csv file from here!"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:61
+msgid ""
+"Edit the csv file, by entering the display type ( valid values are: 0 - none "
+"| 1 - image | 2 - color )"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:62
+msgid ""
+"Enter the image url/color code, you can find the color code with the help of "
+"color-picker available in this page"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:63
+msgid ""
+"After editing please Import the edited file, after successfull importing you "
+"can check the imported color and image from "
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:63
+msgid "Here"
+msgstr ""
+
+#: includes/admin/settings/ced-vm-attrImport.php:69
+msgid "Import Attribute"
+msgstr ""

